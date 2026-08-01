@@ -1,8 +1,26 @@
 aid: scorebig-ticketnetwork
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scorebig-ticketnetwork.png
 name: ScoreBig (TicketNetwork)
-description: 'ScoreBig (TicketNetwork) is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: commerce. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'ScoreBig is an online event-ticket resale marketplace owned by TicketNetwork,
+  selling tickets to live sports, concert, and theater events with an emphasis on transparent,
+  all-in pricing (no extra fees or hidden costs) and a money-back guarantee. Its parent,
+  TicketNetwork, operates the Mercury Web Services API and Mercury Retail integration
+  platform, an API-driven, real-time ticket-inventory feed offered to partners under
+  contract. ScoreBig itself is a consumer storefront and does not publish a public developer
+  API; Mercury is partner-gated behind a sales/onboarding contact form with a sandbox
+  provided to approved integrators. This profile was surfaced as a portfolio company of
+  Bain Capital Ventures and enriched by the API Evangelist pipeline.'
 url: https://raw.githubusercontent.com/api-evangelist/scorebig-ticketnetwork/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Commerce
+- Tickets
+- Ticketing
+- Marketplace
+- Events
+- Live Events
+- Resale
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.scorebig.com/
+- type: PrivacyPolicy
+  url: https://www.scorebig.com/policies?policy=privacy
+- type: TermsOfService
+  url: https://www.scorebig.com/policies
+- type: Support
+  url: https://www.scorebig.com/contact-us
+- type: HelpCenter
+  url: https://www.scorebig.com/faq
+- type: DomainSecurity
+  url: security/scorebig-ticketnetwork-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
